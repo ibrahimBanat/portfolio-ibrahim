@@ -5,7 +5,7 @@ const express = require('express'); // installed express first
 
 const server = express(); // server has all the porper and methods for express.
 
-const PORT = 3000; //
+const PORT = process.env.PORT || 3000; //
 
 // route
 server.get('/', (req, res) => {
