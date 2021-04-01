@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-ibrahim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimBanat/portfolio-ibrahim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimBanat/portfolio-ibrahim/issues"
+  },
+  "homepage": "https://github.com/ibrahimBanat/portfolio-ibrahim#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
