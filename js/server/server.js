@@ -7,6 +7,7 @@ const server = express(); // server has all the porper and methods for express.
 
 const PORT = process.env.PORT || 3000; //
 
+server.use(express.static('./public'));
 // route
 server.get('/', (req, res) => {
   res.send('home route');
@@ -21,5 +22,5 @@ server.get('/data', (req, res) => {
 });
 // making sure that the  server is ready for lisnineg for requests
 server.listen(PORT, () => {
-  console.log(`listening on PORT ${PORT}`);
+  console.log(`listening on PORT http://localhost:${PORT}`);
 });
