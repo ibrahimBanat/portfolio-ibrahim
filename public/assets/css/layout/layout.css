@@ -119,6 +119,7 @@ table th {
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.25em;
   margin: 0.5em 0 0 0;
+  color: #8f456c;
 }
 
 #logo .image {
@@ -250,12 +251,16 @@ table th {
 }
 
 #main > section.one {
-  background-color: #81918e;
-  background-image: url('../../../images/banner.jpg');
+  /* background-color: #81918e;
+   */
+  background-color: #8f456c;
+  background-image: linear-gradient(45deg, #8f456c 0%, #bba5af 100%);
+
+  /* background-image: url(''); */
 }
 
 #main > section.two {
-  background-color: #f5fafa;
+  background-color: #fffae6;
 }
 
 #main > section.three {
@@ -307,7 +312,7 @@ table th {
   }
 
   #main section.cover {
-    padding: 5em 0;
+    padding: 8em 0;
   }
 }
 
